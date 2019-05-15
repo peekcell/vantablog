@@ -1,0 +1,19 @@
+nav {
+  border-bottom: 1px solid #3333;
+}
+nav > div > div.collapse.navbar-collapse {
+  padding: 0 10px;
+  width: 100%;
+}
+nav > div > a.navbar-brand {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 13px 15px;
+}
+@media(max-width: 568px) {
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+  }
+}
